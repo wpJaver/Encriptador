@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https: //fonts.googleapis.com/css2? family= Inter:wght@400;700 & display=swap"
+    />
+    <script src="script.js"></script>
+    <title>Encriptador</title>
+  </head>
+  <body>
+    <!-- ***** Logo ***** -->
+    <section class="logo">
+      <img src="recursos/Logo.png" alt="" />
+    </section>
+    <!-- ***** Cuerppo-encriptador ***** -->
+    <section class="cuerpo-encriptador">
+      <textarea name="" id="mytexto" cols="30" rows="10"></textarea>
+      <p>
+        <img src="recursos/Vector.png" alt="" /> Solo letras minúsculas y sin
+        acentos
+      </p>
+      <div class="botones">
+        <button class="boton" id="encriptar" onclick="encriptar_texto()">
+          Encriptar
+        </button>
+        <button class="boton" onclick="desencriptar_texto()">
+          Desencriptar
+        </button>
+      </div>
+    </section>
+    <!-- ***** aside ***** -->
+    <section class="aside" id="aside">
+      <div class="aside-sin-texto">
+        <img src="/recursos/Muñeco.png" alt="muneco" />
+        <p class="aside-titulo">Ningún mensaje fue encontrado</p>
+        <p class="aside-cuerpo">
+          Ingresa el texto que desees encriptar o desencriptar.
+        </p>
+      </div>
+      <div class="aside-con-texto">
+        <textarea id="" cols="30" rows="10"></textarea>
+        <button class="boton">Copiar</button>
+      </div>
+    </section>
+  </body>
+</html>

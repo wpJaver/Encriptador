@@ -10,7 +10,7 @@
   --texto-boton-hover: #0a3871;
 }
 
-.main {
+main {
   /* font-family: "Inter", sans-serif; */
   display: flex;
   padding: 40px;
@@ -165,7 +165,7 @@ footer {
 }
 
 @media screen and (max-width: 1250px) {
-  .main {
+  main {
     flex-direction: column;
     align-items: center;
   }
@@ -212,5 +212,9 @@ footer {
   .botones {
     flex-direction: column;
     align-items: center;
+  }
+
+  .aside {
+    width: auto;
   }
 }

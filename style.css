@@ -160,7 +160,7 @@ footer {
     width: 50vw;
   }
   .aside {
-    width: 20vw;
+    width: auto;
   }
 }
 
@@ -173,10 +173,18 @@ footer {
     justify-content: center;
     margin-bottom: 5%;
   }
+  .boton {
+    width: 260px;
+  }
   .logo,
   .cuerpo-encriptador,
   .aside {
-    width: 80%;
+    width: auto;
+    margin-right: 0;
+  }
+
+  .aside {
+    width: 500px;
   }
 
   .cuerpo-encriptador p {
@@ -187,13 +195,20 @@ footer {
     display: none;
   }
 
-  .aside-box,
+  .aside-box {
+    height: 10vh;
+  }
+
   .cuerpo-encriptador textarea {
     height: 25vh;
   }
 }
 
 @media screen and (max-width: 800px) {
+  .cuerpo-encriptador {
+    align-items: center;
+  }
+
   .botones {
     flex-direction: column;
     align-items: center;

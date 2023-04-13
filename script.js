@@ -1,14 +1,14 @@
 var letras_encriptar = {
-  a: "enter",
-  e: "imes",
-  i: "ai",
+  a: "ei",
+  e: "enter",
+  i: "imes",
   o: "ober",
   u: "ufat",
 };
 var letras_desencriptar = {
-  enter: "a",
-  imes: "e",
-  ai: "i",
+  ai: "a",
+  enter: "e",
+  imes: "i",
   ober: "o",
   ufat: "u",
 };
@@ -41,7 +41,7 @@ function encriptar_texto() {
   }
 }
 function desencriptar_texto() {
-  let palabras = ["enter", "imes", "ai", "ober", "ufat"];
+  let palabras = ["ai", "enter", "imes", "ober", "ufat"];
   let mensaje = document.getElementById("mytexto").value;
   let nuevo_mensaje = "";
   let k = 0;

@@ -54,3 +54,8 @@ function desencriptar_texto() {
     contenedor_texto.value = mensaje_desencriptado;
   }
 }
+
+function copiar_texto() {
+  navigator.clipboard.writeText(contenedor_texto.value);
+  document.getElementById("mytexto").value = contenedor_texto.value;
+}
